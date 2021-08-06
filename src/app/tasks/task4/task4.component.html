@@ -1,1 +1,24 @@
-<p>task4 works!</p>
+<h1  style = "float: left; margin-right: 15px;">Task 4: </h1><h2 >Tres en línea</h2>
+<p style="margin-left: 15px;">jugador 1: o &nbsp;&nbsp;&nbsp; jugador 2: x</p>
+
+<table>
+    <tr>
+        <td><button class="buttonT" (click)="btnPulsado(1)" mat-stroked-button><img *ngIf="btn1 ==1" src="../../../assets/img/rec.svg"> <img *ngIf="btn1 ==2" src="../../../assets/img/boton-cerrar.svg" ></button></td>
+        <td><button class="buttonT" (click)="btnPulsado(2)" mat-stroked-button><img *ngIf="btn2 ==1" src="../../../assets/img/rec.svg"> <img *ngIf="btn2 ==2" src="../../../assets/img/boton-cerrar.svg" ></button></td>
+        <td><button class="buttonT" (click)="btnPulsado(3)" mat-stroked-button><img *ngIf="btn3 ==1" src="../../../assets/img/rec.svg"> <img *ngIf="btn3 ==2" src="../../../assets/img/boton-cerrar.svg" > </button></td>
+    </tr>
+    <tr>
+        <td><button class="buttonT" (click)="btnPulsado(4)" mat-stroked-button><img *ngIf="btn4 ==1" src="../../../assets/img/rec.svg"> <img *ngIf="btn4 ==2" src="../../../assets/img/boton-cerrar.svg" > </button></td>
+        <td><button class="buttonT" (click)="btnPulsado(5)" mat-stroked-button><img *ngIf="btn5 ==1" src="../../../assets/img/rec.svg"> <img *ngIf="btn5 ==2" src="../../../assets/img/boton-cerrar.svg" > </button></td>
+        <td><button class="buttonT" (click)="btnPulsado(6)" mat-stroked-button><img *ngIf="btn6 ==1" src="../../../assets/img/rec.svg"> <img *ngIf="btn6 ==2" src="../../../assets/img/boton-cerrar.svg" > </button></td>
+    </tr>
+    <tr>
+        <td><button class="buttonT" (click)="btnPulsado(7)" mat-stroked-button><img *ngIf="btn7 ==1" src="../../../assets/img/rec.svg"> <img *ngIf="btn7 ==2" src="../../../assets/img/boton-cerrar.svg" > </button></td>
+        <td><button class="buttonT" (click)="btnPulsado(8)" mat-stroked-button><img *ngIf="btn8 ==1" src="../../../assets/img/rec.svg"> <img *ngIf="btn8 ==2" src="../../../assets/img/boton-cerrar.svg" > </button></td>
+        <td><button class="buttonT" (click)="btnPulsado(9)" mat-stroked-button><img *ngIf="btn9 ==1" src="../../../assets/img/rec.svg"> <img *ngIf="btn9 ==2" src="../../../assets/img/boton-cerrar.svg" > </button></td>
+    </tr>
+</table>
+<p *ngIf="jugador == true">Turno del jugador 1</p>
+<p *ngIf="jugador == false">Turno del jugador 2</p>
+<button (click)="reint()" mat-stroked-button *ngIf="reintentar == 1" >reintentar</button>
+
