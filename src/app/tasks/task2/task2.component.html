@@ -1,0 +1,11 @@
+<h1  style = "float: left; margin-right: 15px;">Task 2: </h1><h2 >Zechendorf’s Theorem</h2>
+
+<mat-form-field appearance="outline">
+    <mat-label>Número</mat-label>
+    <input matInput [(ngModel)]="nInit" name="nInit">
+</mat-form-field>
+<br>
+<button (click)="fibonacci()" mat-raised-button color="accent">Ejecutar</button>
+
+<h3 style="height: 50px; margin-top: 20px;">Resultado: {{finalOP}}</h3>
+

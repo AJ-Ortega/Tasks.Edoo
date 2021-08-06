@@ -1,0 +1,12 @@
+
+<h1 style = "float: left; margin-right: 15px;">Task 1:</h1> 
+<h2>Spinnings words</h2>
+
+<mat-form-field appearance="outline">
+    <mat-label>Texto</mat-label>
+    <input matInput [(ngModel)]="world" name="world">
+</mat-form-field>
+<br>
+<button (click)="converter()" mat-raised-button color="primary">Ejecutar</button>
+
+<h3 style="height: 50px; margin-top: 20px;">Resultado: {{final}}</h3>
