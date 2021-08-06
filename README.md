@@ -1,4 +1,5 @@
 # Tasks for Edoo
+instrucciones de las tareas: https://docs.google.com/document/d/13GZ3Iz8xEvMv9B-IPCGPk8sxUix6EQkKEUd3UinXKxY/edit
 
 ## Run proyect for Task 1, Task 2 and Task 4
 ####  Work in Angular
