@@ -2,7 +2,7 @@
 
 ## Run proyect for Task 1, Task 2 and Task 4
 ####  Work in Angular
-Escribe `ng serve` en la consola para ejecutar el proyecto y luego ingresa a la siguiente url en el navegador `http://localhost:4200/`.
+Escribe el comando `npm update` y luego de la instalacion de dependencias escribir `ng serve` en la consola para ejecutar el proyecto y luego ingresa a la siguiente url en el navegador `http://localhost:4200/`.
 
 ## Task  3
 
