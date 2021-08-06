@@ -1,11 +1,10 @@
 # Tasks for Edoo
 
 ## Run proyect for Task 1, Task 2 and Task 4
-
-Escribe `ng serve` en la consola para ejecutar el proyecto y luego ingresar a la siguiente url en el navegador `http://localhost:4200/`.
+####  Work in Angular
+Escribe `ng serve` en la consola para ejecutar el proyecto y luego ingresa a la siguiente url en el navegador `http://localhost:4200/`.
 
 ## Task  3
-
 
 ###### Respuesta 1
 > En todo caso si el equipo de trabajo es pequeño, se debe de priorizar lo pedido por el cliente anteriormente, ya que en la jerarquía los «potenciales compradores» pasan primero por la página de productos y si está tarda demasiado ocasionando que abandonen la página, estos «potenciales compradores» jamas llegaran a usar las demás funciones, tal como lo es eliminar foto de perfil. Así que reiterando, se debe de arreglar el problema de carga.
